@@ -16,7 +16,7 @@ function Projects() {
               <div className='project'>
                 <img src={Twitter} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>Twitter Clone</h3>
+                <h3>-Twitter Clone-</h3>
                 <div className='project-icons'>
                 <Link to={'https://github.com/AnoopAG91/TwitterClone.git'}><AiFillGithub/></Link>
                 <Link to={'https://twitter-clone-omyt.vercel.app/'}><CgWebsite/></Link>
@@ -26,7 +26,7 @@ function Projects() {
               <div className='project'>
                 <img src={Gym} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>Gym Website</h3>
+                <h3>-Gym Website-</h3>
                 <div className='project-icons'>
                 <Link to={'https://github.com/AnoopAG91/myNew-Gym.git'}><AiFillGithub/></Link>
                 <Link to={'https://gym-65hz.vercel.app/'}><CgWebsite/></Link>
@@ -37,7 +37,7 @@ function Projects() {
               <div className='project'>
                 <img src={ProuctCart} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>Product Cart</h3>
+                <h3>-Product Cart-</h3>
                 <div className='project-icons'>
                 <Link to={'https://github.com/AnoopAG91/Product-Cart.git'}><AiFillGithub/></Link>
                 <Link to={'https://product-cart-qkzc.vercel.app/'}><CgWebsite/></Link>
@@ -47,7 +47,7 @@ function Projects() {
               <div className='project'>
                 <img src={QRCode} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>QRCode Generator</h3>
+                <h3>-QRCode Generator-</h3>
                 <div className='project-icons'>
                 <Link to={'https://github.com/AnoopAG91/QRCode-Generator'}><AiFillGithub/></Link>
                 <Link to={'https://qr-code-generator-zeta-one.vercel.app/'}><CgWebsite/></Link>
