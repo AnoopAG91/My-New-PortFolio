@@ -35,14 +35,15 @@
     border: 1px solid grey;
     box-shadow: 0 3px 15px rgba(0,0,0,0.3);
 }
+.project-icons svg:hover {
+    color: #e25108;
+    transform: translateY(-5px);
+}
 .project-icons svg {
     color: #212429;
     font-size: 2.5rem;
     cursor: pointer;
-}
-.project-icons svg:hover{
-    color: #9a3d0e;
-    transition: 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 .project-icons {
     display: flex;

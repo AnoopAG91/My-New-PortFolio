@@ -1,3 +1,30 @@
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+.slide-in-left{
+    animation-name: slideInLeft;
+    animation-duration: 2s;
+}
+.slide-in-right{
+    animation-name: slideInRight;
+    animation-duration: 2s;
+}
+
 .home {
     background-image: url(../images/homebg.jpg.jpg);
     background-size: cover;
@@ -42,6 +69,16 @@
 }
 .icons a {
     color: #fff;
+}
+
+.icons svg {
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.icons svg:hover {
+    transform: translateY(-5px);
 }
 
 

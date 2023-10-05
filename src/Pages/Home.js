@@ -9,8 +9,8 @@ function Home() {
       <div className='home-hero'>
         
         <div className='content'>
-        <h1>Hi, I'm <span style={{color:"#ff5700"}}>Anoop</span> </h1>
-        <p>-A<span style={{color:"#ff5700",fontWeight:"500"}}> Frontend </span>Developer-</p>
+        <h1 className='slide-in-left'>Hi, I'm <span style={{color:"#ff5700"}}>Anoop</span> </h1>
+        <p className='slide-in-right'>-A<span style={{color:"#ff5700",fontWeight:"500"}}> Frontend </span>Developer-</p>
         </div>
         
         <div className='icons'>

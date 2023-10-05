@@ -10,7 +10,7 @@ function About() {
     return (
         <div className='about' id='about'>
             <div className='about-title'>
-                <h1>About Me</h1>
+                <h1 className='slide-in-left'>About Me</h1>
                 <div className='about-content'>
                     <img src={myImage} alt='my-img'/>
                     <p><span className='content-hi'>Hi,</span> I am Anoop. A passionate Front-End Developer with a strong foundation in web development.

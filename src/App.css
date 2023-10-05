@@ -6,3 +6,36 @@
   font-family: 'Poppins', sans-serif;
   width: 100%;
 }
+
+/* Animations */
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-300px);
+  }
+  to{
+      transform: translateX(0px);
+  }
+}
+
+.slide-in-left{
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+}
+
+
+/* slide in right animation */
+
+@keyframes slideInRight {
+  from {
+      transform: translateX(300px);
+  }
+  to{
+      transform: translateX(0px);
+  }
+}
+
+.slide-in-right{
+  animation-name: slideInRight;
+  animation-duration: 2s;
+}
