@@ -4,6 +4,8 @@ import Twitter from '../images/Twitter.png'
 import Gym from '../images/Gym.png'
 import ProuctCart from '../images/ProductCart.png'
 import QRCode from '../images/QRCode.png'
+import Imdb from '../images/imdb.png'
+import Login from '../images/login.png'
 import {CgWebsite} from 'react-icons/cg'
 import {AiFillGithub } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -24,16 +26,17 @@ function Projects() {
                 </div>
               </div>
               <div className='project'>
-                <img src={Gym} alt='proejct-img'/>
+                <img src={Imdb} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>-Gym Website-</h3>
+                <h3>-IMDB Clone-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/myNew-Gym.git'}><AiFillGithub/></Link>
-                <Link to={'https://gym-65hz.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/Imdb-clone.git'}><AiFillGithub/></Link>
+                <Link to={'https://imdb-clone-seven-beryl.vercel.app/'}><CgWebsite/></Link>
                 
                 </div>
                 </div>
               </div>
+
               <div className='project'>
                 <img src={ProuctCart} alt='proejct-img'/>
                 <div className='project-content'>
@@ -44,6 +47,30 @@ function Projects() {
                 </div>
                 </div>
               </div>
+
+              <div className='project'>
+                <img src={Gym} alt='proejct-img'/>
+                <div className='project-content'>
+                <h3>-Gym Website-</h3>
+                <div className='project-icons'>
+                <Link to={'https://github.com/AnoopAG91/myNew-Gym.git'}><AiFillGithub/></Link>
+                <Link to={'https://gym-65hz.vercel.app/'}><CgWebsite/></Link>
+                
+                </div>
+                </div>
+              </div>
+
+              <div className='project'>
+                <img src={Login} alt='proejct-img'/>
+                <div className='project-content'>
+                <h3>-Login Page-</h3>
+                <div className='project-icons'>
+                <Link to={'https://github.com/AnoopAG91/Login-and-Signup-Form.git'}><AiFillGithub/></Link>
+                <Link to={'https://login-and-signup-form.vercel.app/'}><CgWebsite/></Link>
+                </div>
+                </div>
+              </div>
+             
               <div className='project'>
                 <img src={QRCode} alt='proejct-img'/>
                 <div className='project-content'>
