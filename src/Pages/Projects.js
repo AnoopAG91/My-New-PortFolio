@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Twitter from '../images/Twitter.png'
-import Gym from '../images/gym.png'
+import Gym from '../images/gym.JPG'
 import ProuctCart from '../images/ProductCart.png'
 import QRCode from '../images/QRCode.png'
 import Imdb from '../images/imdb.png'
