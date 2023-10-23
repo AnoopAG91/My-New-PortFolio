@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import Twitter from '../images/Twitter.png'
-import Gym from '../images/Gym.png'
+import Gym from '../images/'
 import ProuctCart from '../images/ProductCart.png'
 import QRCode from '../images/QRCode.png'
 import Imdb from '../images/imdb.png'
@@ -53,8 +53,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Gym Website-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/myNew-Gym.git'}><AiFillGithub/></Link>
-                <Link to={'https://gym-65hz.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/NewGym-Website.git'}><AiFillGithub/></Link>
+                <Link to={'https://new-gym-website-red.vercel.app/'}><CgWebsite/></Link>
                 
                 </div>
                 </div>
