@@ -49,7 +49,7 @@ function Projects() {
               </div>
 
               <div className='project'>
-                <img src={Gym} alt='proejct-img'/>
+                <img src={Gym} alt='project-img'/>
                 <div className='project-content'>
                 <h3>-Gym Website-</h3>
                 <div className='project-icons'>
