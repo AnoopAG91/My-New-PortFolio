@@ -28,7 +28,7 @@ function About() {
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2023 Present"
+                            date="2023"
                             iconStyle={{ background: 'rgb(202 76 12)', color: '#fff' }}
                             icon={<MdWork />}
                         >

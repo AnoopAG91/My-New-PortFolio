@@ -6,6 +6,10 @@ import ProuctCart from '../images/ProductCart.png'
 import QRCode from '../images/QRCode.png'
 import Imdb from '../images/imdb.png'
 import Login from '../images/login.png'
+import Phd from '../images/phd.png'
+import Flower from '../images/flower.png'
+
+
 import {CgWebsite} from 'react-icons/cg'
 import {AiFillGithub } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -15,6 +19,19 @@ function Projects() {
         <div className='project-hero'>
             <h1>My Projects</h1>
             <div className='projects-wrapper'>
+
+            <div className='project'>
+                <img src={Phd} alt='proejct-img'/>
+                <div className='project-content'>
+                <h3>-Phd Assistance-</h3>
+                <div className='project-icons'>
+                <Link to={'https://github.com/AnoopAG91/phD-Assistance.git'}><AiFillGithub/></Link>
+                <Link to={'https://ph-d-assistance.vercel.app/'}><CgWebsite/></Link>
+                
+                </div>
+                </div>
+              </div>
+
               <div className='project'>
                 <img src={Twitter} alt='proejct-img'/>
                 <div className='project-content'>
@@ -32,6 +49,20 @@ function Projects() {
                 <div className='project-icons'>
                 <Link to={'https://github.com/AnoopAG91/Imdb-clone.git'}><AiFillGithub/></Link>
                 <Link to={'https://imdb-clone-seven-beryl.vercel.app/'}><CgWebsite/></Link>
+                
+                </div>
+                </div>
+              </div>
+
+              
+
+              <div className='project'>
+                <img src={Flower} alt='proejct-img'/>
+                <div className='project-content'>
+                <h3>-Real Flower-</h3>
+                <div className='project-icons'>
+                <Link to={'https://github.com/AnoopAG91/Real-Flower-Project.git'}><AiFillGithub/></Link>
+                <Link to={'https://real-flower-project.vercel.app/'}><CgWebsite/></Link>
                 
                 </div>
                 </div>
