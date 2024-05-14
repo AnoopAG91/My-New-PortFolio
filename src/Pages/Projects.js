@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import Twitter from '../images/Twitter.png'
+import MyResto from '../images/myResto Website.png'
 import Gym from '../images/gym.JPG'
 import ProuctCart from '../images/ProductCart.png'
 import QRCode from '../images/QRCode.png'
@@ -25,20 +25,20 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Phd Assistance-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/phD-Assistance.git'}><AiFillGithub/></Link>
-                <Link to={'https://ph-d-assistance.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/phD-Assistance.git'}>Github Link<AiFillGithub/></Link>
+                <Link to={'https://ph-d-assistance.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 
                 </div>
                 </div>
               </div>
 
               <div className='project'>
-                <img src={Twitter} alt='proejct-img'/>
+                <img src={MyResto} alt='proejct-img'/>
                 <div className='project-content'>
-                <h3>-Twitter Clone-</h3>
+                <h3>-Restaurant Website-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/TwitterClone.git'}><AiFillGithub/></Link>
-                <Link to={'https://twitter-clone-omyt.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/MyResto-Webiste.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://my-resto-webiste.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 </div>
                 </div>
               </div>
@@ -47,8 +47,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-IMDB Clone-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/Imdb-clone.git'}><AiFillGithub/></Link>
-                <Link to={'https://imdb-clone-seven-beryl.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/Imdb-clone.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://imdb-clone-seven-beryl.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 
                 </div>
                 </div>
@@ -61,8 +61,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Real Flower-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/Real-Flower-Project.git'}><AiFillGithub/></Link>
-                <Link to={'https://real-flower-project.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/Real-Flower-Project.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://real-flower-project.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 
                 </div>
                 </div>
@@ -73,8 +73,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Product Cart-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/Product-Cart.git'}><AiFillGithub/></Link>
-                <Link to={'https://product-cart-qkzc.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/Product-Cart.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://product-cart-qkzc.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 </div>
                 </div>
               </div>
@@ -84,8 +84,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Gym Website-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/NewGym-Website.git'}><AiFillGithub/></Link>
-                <Link to={'https://new-gym-website-red.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/NewGym-Website.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://new-gym-website-red.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 
                 </div>
                 </div>
@@ -96,8 +96,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-Login Page-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/Login-and-Signup-Form.git'}><AiFillGithub/></Link>
-                <Link to={'https://login-and-signup-form.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/Login-and-Signup-Form.git'}><span>Github Link</span><AiFillGithub/></Link>
+                <Link to={'https://login-and-signup-form.vercel.app/'}><span> Deployment Link</span><CgWebsite/></Link>
                 </div>
                 </div>
               </div>
@@ -107,8 +107,8 @@ function Projects() {
                 <div className='project-content'>
                 <h3>-QRCode Generator-</h3>
                 <div className='project-icons'>
-                <Link to={'https://github.com/AnoopAG91/QRCode-Generator'}><AiFillGithub/></Link>
-                <Link to={'https://qr-code-generator-zeta-one.vercel.app/'}><CgWebsite/></Link>
+                <Link to={'https://github.com/AnoopAG91/QRCode-Generator'}> <span>Github Link</span> <AiFillGithub/></Link>
+                <Link to={'https://qr-code-generator-zeta-one.vercel.app/'}> <span> Deployment Link</span><CgWebsite/></Link>
                 </div>
                 </div>
               </div>
