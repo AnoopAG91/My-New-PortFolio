@@ -14,11 +14,14 @@ function About() {
                 <div className='about-content'>
                     <img src={myImage} alt='my-img'/>
                     <p><span className='content-hi'>Hi,</span> I am Anoop. A passionate Front-End Developer with a strong foundation in web development.
-                        I embarked on my journey in the world of web development by completing a comprehensive Front-End Development training program at FunctionUp.
-                        Since then, I've been on a mission to craft visually stunning and highly functional web applications.
+                     I embarked on my journey in the world of web development by completing a comprehensive Front-End Development training program 
+                     at FunctionUp. In addition, I am a self-taught Front-End Developer, having gained substantial knowledge and skills through 
+                     online resources and YouTube. Since then, 
+                    I've been on a mission to craft visually stunning and highly functional web applications.
                         <br /><br />
-                        Throughout my journey as a Front-End Developer, I've had the opportunity to work on various projects,
-                        where I've applied my knowledge and expertise to develop websites that not only meet but exceed client expectations.</p>
+                        Throughout my journey as a Front-End Developer, I've had the opportunity to work on various projects, 
+                        where I've applied my knowledge and
+                         expertise to develop websites that not only meet but exceed client expectations.</p>
 
                 </div>
 
